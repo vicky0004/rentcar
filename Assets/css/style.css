@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    --bs-bg-opacity: 1;
+    background-color: #3d52a0;
+    padding: 12px 20px;
+    box-shadow: 0px 11px 5px #293561;
+}
+.navbar-brand{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+body{
+    background-color: #aebffd;
+}
+.page-btn{
+    color: white;
+    background-color: #7091e6;
+}
+.page-btn:hover{
+    color:whitesmoke;
+    background-color: #4f76d9;
+}
+.item-card{
+    /* background-color: aqua; */
+    padding: 10px 0px;
+    box-shadow: 9px 9px 5px #7091e6;
+    transition: transform 0.5s;
+}
+.item-card:hover{
+    box-shadow: 9px 9px 5px #3151c2;
+    transform: scale(1.01); 
+}
+.item-card img{
+    height: 200px;
+    padding: 3px;
+    border-radius: 5px;
+    
+}
+.card-body{
+    font-size: small;
+    padding-bottom: initial;
+}
